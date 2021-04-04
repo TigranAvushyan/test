@@ -1,0 +1,77 @@
+body, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#app {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.fractions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fraction {
+    display: flex;
+    align-items: center;
+}
+.fraction .action {
+    margin: 10px;
+}
+
+
+.fr {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.delete {
+    width: 60px;
+}
+.fr input {
+    width: 60px;
+
+    padding: 4px;
+    font-size: 2.5rem;
+}
+.result{
+    font-size: 2.5rem;
+}
+button {
+    cursor: pointer;
+}
+
+hr {
+    width: 100%;
+    margin: 3px 0;
+}
+
+.addFraction {
+    cursor: pointer;
+}
+
+[v-cloak] * {display: none}
